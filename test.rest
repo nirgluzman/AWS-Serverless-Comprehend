@@ -1,9 +1,9 @@
-@url =    
+@url = https://wrzlh2dfi5.execute-api.us-east-1.amazonaws.com/dev/analyse
 
 ###
 POST {{url}}
 Content-Type: application/json
 
 {
-    "...": "..."
+    "text": "The cost of living in Israel is quite high. In fact, Tel Aviv is the most expensive place for expats living in the Middle East. We break down various costs for you so you are prepared with what to budget for when relocating to the Holy Land. In addition to the costs you can expect, we will also equip you with cultural and social etiquette rules in Israel, as well as communication information so you know how to interact with locals. For example, when meeting a religious person, do not reach out to shake their hand. Instead, wait for their cue on how you should greet them as some may prefer a verbal greeting. Driving and public transportation are both options in this country. However, the best way to get around between cities is the intercity bus. If you do plan on driving in this country, you must be at least 16 years and 9 months of age. To rent a rental car, you will need to be at least 24 years old. For practicality reasons, you should know that the main airport for getting into the country is Ben Gurion Airport."
 }

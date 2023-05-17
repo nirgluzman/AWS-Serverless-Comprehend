@@ -18,20 +18,20 @@ frameworkVersion: '3'
 provider:
   name: aws
   region: ${opt:region, 'us-east-1'}
-  runtime: nodejs16.x
+  runtime: nodejs18.x
   profile: serverless-cli
   stage: ${opt:stage, 'dev'}
   iamRoleStatements:
     - Effect: Allow
       Action:
-        - XXX
+        - comprehend:*
       Resource: '*'
 
 functions:
-  XXX:
-    handler: src/functions/endpoints/
+  analyse:
+    handler: src/functions/endpoints/analyse.handler
     events:
       - http:
-          path:
+          path: analyse
           method: POST
           cors: true
